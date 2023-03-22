@@ -1,0 +1,29 @@
+name: travesys_2
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_calendar: ^20.4.54
+  intl: ^0.18.0
+  go_router: ^6.2.0
+  http: ^0.13.5
+  uuid: ^3.0.7
+  flutter_typeahead: ^4.3.7
+  table_calendar: ^3.0.9
+  hijri: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
